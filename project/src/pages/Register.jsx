@@ -48,7 +48,7 @@ const Register = () => {
         email: formData.email
       }));
       
-      navigate('/dashboard');
+      navigate('/login');
     } catch (err) {
       setError('Registration failed. Please try again.');
       console.error('Registration error:', err);
